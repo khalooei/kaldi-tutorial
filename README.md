@@ -3,6 +3,18 @@
 In this tutorial session, we want to delve into Kaldi framework. You can see our [references section](#References)
  for further informations at the end of this readme file. You can also follow each step in [![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uOMZ4z_AKUT843Jptg_W-L12PnqBoXUy?usp=sharing).
 
+# Definition
+Kaldi is an open source toolkit for speech recognition, intended for use by speech recognition researchers and professionals. It was developed initially at Johns Hopkins University with contributions from many other institutions and individuals around the world. Kaldi provides a set of libraries and tools that can be used to build speech recognition systems, including acoustic modeling, language modeling, and decoding algorithms. It also includes pre-built models and example scripts to help get started with building a speech recognition system. Kaldi has become one of the most popular toolkits for speech recognition research and development due to its high-quality codebase, strong community support, and wide range of features.
+
+### The main structure of Kaldi can be broken down into four components:
+
+    *Data preparation: This component involves processing raw audio data and converting it into a format that can be used by Kaldi. This includes tasks such as feature extraction, data cleaning, and normalization.
+    *Acoustic modeling: In this step, Kaldi trains models to recognize speech sounds. This involves building models that represent acoustic features of speech, such as mel-frequency cepstral coefficients (MFCCs) or filterbank energies. Kaldi supports a wide range of techniques for building acoustic models, including hidden Markov models (HMMs), deep neural networks (DNNs), and convolutional neural networks (CNNs).
+    *Language modeling: Kaldi also provides tools for building language models that represent the probability distribution over words in a given language. This involves training models on large corpora of text data, and using them to estimate the likelihood of different word sequences.
+   *Decoding: Once the acoustic and language models have been trained, Kaldi uses decoding algorithms to recognize speech in real-time. This involves taking acoustic feature vectors and aligning them with the most likely sequence of words based on the language model probabilities. Kaldi supports a variety of decoding algorithms, including Viterbi decoding, forward-backward decoding, and lattice-based decoding.
+
+
+
 # Preliminary steps
 
 At first, we want to pull kaldi docker image from docker hub.
