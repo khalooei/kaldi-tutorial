@@ -57,7 +57,7 @@ By following these preliminary steps, you will be ready to start using Kaldi for
 
 
 At first, we want to pull kaldi docker image from docker hub.
-To deal with some internet sanctions, you can edit `nano /etc/docker/daemon.json` file and add the following repository address:
+To deal with some internet sanctions, you can edit `nano /etc/docker/daemon.json` file and add the following registry mirror:
 
 ```
 {
