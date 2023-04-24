@@ -3,6 +3,11 @@
 In this tutorial session, we want to delve into Kaldi framework. You can see our [references section](#References)
  for further informations at the end of this readme file. You can also follow each step in [![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uOMZ4z_AKUT843Jptg_W-L12PnqBoXUy?usp=sharing).
 
+Here is table of content of this session:
+[Definition](#Definition)  
+[File structures of Kaldi](#File structures of Kaldi)  
+[Implementation](#Implementation)  
+
 # Definition
 Kaldi is an open source toolkit for speech recognition, intended for use by speech recognition researchers and professionals. It was developed initially at Johns Hopkins University with contributions from many other institutions and individuals around the world. Kaldi provides a set of libraries and tools that can be used to build speech recognition systems, including acoustic modeling, language modeling, and decoding algorithms. It also includes pre-built models and example scripts to help get started with building a speech recognition system. Kaldi has become one of the most popular toolkits for speech recognition research and development due to its high-quality codebase, strong community support, and wide range of features.
 
@@ -14,7 +19,7 @@ Kaldi is an open source toolkit for speech recognition, intended for use by spee
 
 Kaldi is primarily written in C++ and has some scripts written in Python. It also uses a number of external libraries, such as the Boost C++ Libraries, Eigen linear algebra library, OpenFst finite-state transducer library, and others. While Kaldi itself is written in C++, it provides a command-line interface and supports scripting in Bash and Python. Kaldi has been designed with portability in mind and can run on a variety of operating systems including Linux, macOS, and Windows (using Windows Subsystem for Linux). Additionally, Kaldi has support for many different languages including English, Chinese, Spanish, Arabic, and others.
 
-#### File structures
+#### File structures of Kaldi
 The root directory of a Kaldi installation typically contains several subdirectories, each with its own purpose and architecture. Here are the main subdirectories you can find in the root directory of a Kaldi installation:
 
    * `src`: This directory contains the source code for Kaldi itself, as well as some of the external libraries it depends on.
@@ -382,10 +387,10 @@ Or if you are interested in getting word-level alignment information for each re
 
 <hr>
 
-# References
+# 📄References
 
 ```
-* Supervisor : Dr. Hossein Zeinali
+* Instructor : Dr. Hossein Zeinali
 * Provided by: Mohammad Khalooei
 
 @ Amirkabir University of Technology
@@ -394,4 +399,5 @@ Or if you are interested in getting word-level alignment information for each re
 - http://kaldi-asr.org/
 - https://www.youtube.com/watch?v=Num422yE-Vo
 - https://github.com/nessessence/Kaldi_ASR_Tutorial
+- https://github.com/ekapolc/ASR_classproject
 ```
