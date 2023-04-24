@@ -3,10 +3,6 @@
 In this tutorial session, we want to delve into Kaldi framework. You can see our [references section](#References)
  for further informations at the end of this readme file. You can also follow each step in [![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uOMZ4z_AKUT843Jptg_W-L12PnqBoXUy?usp=sharing).
 
-Here is table of content of this session:
-[Definition](#Definition)  
-[File structures of Kaldi](#File structures of Kaldi)  
-[Implementation](#Implementation)  
 
 # Definition
 Kaldi is an open source toolkit for speech recognition, intended for use by speech recognition researchers and professionals. It was developed initially at Johns Hopkins University with contributions from many other institutions and individuals around the world. Kaldi provides a set of libraries and tools that can be used to build speech recognition systems, including acoustic modeling, language modeling, and decoding algorithms. It also includes pre-built models and example scripts to help get started with building a speech recognition system. Kaldi has become one of the most popular toolkits for speech recognition research and development due to its high-quality codebase, strong community support, and wide range of features.
