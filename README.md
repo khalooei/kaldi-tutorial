@@ -393,7 +393,8 @@ Or if you are interested in getting word-level alignment information for each re
 @ ref: 
 - https://github.com/kaldi-asr/kaldi
 - http://kaldi-asr.org/
-- https://www.youtube.com/watch?v=Num422yE-Vo
+- https://eleanorchodroff.com/tutorial/index.html
+- https://www.youtube.com/watch?v=Num422yE-Vo 
 - https://github.com/nessessence/Kaldi_ASR_Tutorial
 - https://github.com/ekapolc/ASR_classproject
 ```
