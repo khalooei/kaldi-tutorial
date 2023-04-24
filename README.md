@@ -1,5 +1,5 @@
 # Kaldi tutorial session
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uOMZ4z_AKUT843Jptg_W-L12PnqBoXUy?usp=sharing]
+[![Open In Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uOMZ4z_AKUT843Jptg_W-L12PnqBoXUy?usp=sharing)]
 
 In this tutorial session, we want to delve into Kaldi framework. You can see our [references section](#references)
  for further informations at the end of this readme file 
