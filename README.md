@@ -12,6 +12,26 @@ Kaldi is an open source toolkit for speech recognition, intended for use by spee
 * Language modeling: Kaldi also provides tools for building language models that represent the probability distribution over words in a given language. This involves training models on large corpora of text data, and using them to estimate the likelihood of different word sequences.
 * Decoding: Once the acoustic and language models have been trained, Kaldi uses decoding algorithms to recognize speech in real-time. This involves taking acoustic feature vectors and aligning them with the most likely sequence of words based on the language model probabilities. Kaldi supports a variety of decoding algorithms, including Viterbi decoding, forward-backward decoding, and lattice-based decoding.
 
+Kaldi is primarily written in C++ and has some scripts written in Python. It also uses a number of external libraries, such as the Boost C++ Libraries, Eigen linear algebra library, OpenFst finite-state transducer library, and others. While Kaldi itself is written in C++, it provides a command-line interface and supports scripting in Bash and Python. Kaldi has been designed with portability in mind and can run on a variety of operating systems including Linux, macOS, and Windows (using Windows Subsystem for Linux). Additionally, Kaldi has support for many different languages including English, Chinese, Spanish, Arabic, and others.
+
+#### File structures
+The root directory of a Kaldi installation typically contains several subdirectories, each with its own purpose and architecture. Here are the main subdirectories you can find in the root directory of a Kaldi installation:
+
+   * `src`: This directory contains the source code for Kaldi itself, as well as some of the external libraries it depends on.
+
+   * `tools`: This directory contains various tools that are used by Kaldi, such as scripts for data preparation, language modeling, acoustic modeling, and decoding.
+
+   * `egs`: This directory contains example scripts for various speech recognition tasks, including speaker identification, keyword spotting, and large-vocabulary continuous speech recognition (LVCSR).
+
+   * `test`: This directory contains test files and scripts to ensure that Kaldi is working properly.
+
+   * `conf`: This directory contains configuration files for different components of Kaldi, such as the feature extraction process or the decoding algorithm.
+
+   * `data`: This directory contains the raw audio data and associated metadata used for training and testing speech recognition systems.
+
+   * `exp`: This directory contains the output from training and testing different speech recognition models, such as acoustic and language models.
+
+These directories form the core structure of a Kaldi installation and are used to build and run speech recognition systems using Kaldi.
 
 
 # Preliminary steps
