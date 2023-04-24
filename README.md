@@ -34,7 +34,27 @@ The root directory of a Kaldi installation typically contains several subdirecto
 These directories form the core structure of a Kaldi installation and are used to build and run speech recognition systems using Kaldi.
 
 
-# Preliminary steps
+# Implementation
+
+## Intro
+Before using Kaldi for the first time, there are a few preliminary steps to take:
+
+   - Install Kaldi: You will need to install Kaldi on your system. The installation process may vary depending on your operating system and hardware, but detailed instructions can be found on the Kaldi website.
+
+   - Download data: To train and test speech recognition models, you will need audio data and associated metadata, such as transcriptions or speaker information. The Kaldi website provides some sample data that you can use to get started.
+
+   - Prepare data: Once you have downloaded the data, you will need to preprocess it so that it can be used by Kaldi. This involves tasks such as converting audio files to a format that Kaldi can read, segmenting the audio into smaller chunks, and generating transcripts for each chunk.
+
+   - Set up environment variables: Kaldi relies on several environment variables to locate its tools and resources. You will need to set these variables so that Kaldi can find everything it needs.
+
+   - Learn basic commands: Kaldi has many command-line tools that you will use to prepare data, build models, and run decoding. It is essential to learn at least the basic commands so that you can work effectively with Kaldi.
+
+By following these preliminary steps, you will be ready to start using Kaldi for speech recognition tasks.
+
+
+## Preliminary steps
+
+
 
 At first, we want to pull kaldi docker image from docker hub.
 To deal with some internet sanctions, you can edit `nano /etc/docker/daemon.json` and write the bellow repository:
