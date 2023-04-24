@@ -330,7 +330,8 @@ Or if you are interested in getting word-level alignment information for each re
 
 
 <hr>
-#References
+
+# References
 
 ```
 * Supervisor : Dr. Hossein Zeinali
